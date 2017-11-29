@@ -1,7 +1,3 @@
-<?php 
-    $posicao = 1;
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -41,57 +37,41 @@
 </head>
 
 <body>
-<div class="uk-container">
+<div class="uk-container uk-houver">
     <body bgcolor="#33B86">
     <div class="uk-grid">
         <a href="home"><img src="public/imagens/Oficial.png" width="150" height="150"/></a>
         <center><h1><font face="Helvetica">Emira Championship</font></h1></center>
     </div>
         <hr>
-
-                <center><h2><font face="Verdana">Jogos</font></h2></center>
-
-                <div align="center">
+         <center><h2><font face="Verdana">Jogos</font></h2></center>
+<br>
+                <?php foreach($dados as $d){ ?>        
+                 <div align="center">
     <table border="1" width="70%" bgcolor="#000000">
-    <tr><td bgcolor="#33B86"><h4><strong><center><font face="Garamond" color="#fff">"Pronto, agora seu campeonato está concluído!<br>
-    Você pode ver as opções do seu time ao clicar no<br>
-    nome dele na tabela abaixo.</font></center></strong></h4></td></tr>
-    </table>
+        <tr><td bgcolor="#33B86"><h4><strong><center><font face="Garamond" color="#fff"><br>
+<div align="left">
+    &nbsp&nbsp&nbsp&nbsp&nbsp
+    <?=$d['data']?>
+    <br>
     </div>
-<br><br><br><br>
-
-                <div align="center">
-
-                 <table class="uk-table uk-table-hover" border="1" width="70%" bgcolor="#000000">
-        <thead>
-        
-            <tr bgcolor="#0080FF">
-                <th><font color="#fff">Data</th>
-                <th><font color="#fff">Estadio</font></th>
-                <th><font color="#fff">Time 1</font></th>
-                <th><font color="#fff">Gols</font></th>  
-                <th><font color="#fff"></font></th>  
-                <th><font color="#fff">Gols</font></th>             
-                <th><font color="#fff">Time 2</font></th>  
-            </tr>
-        </thead>
-        <?php foreach($dados as $d){ ?>
-        <tbody>
-            <tr bgcolor="#0080FF">
-                <td><font color="#fff"><?=$d['data']?></font></td>
-                <td><font color="#fff"><?=$d['estadio']?></font></td>
-                <td><font color="#fff"><?=$d['time1']?></font></td>
-                <td><font color="#fff"><?=$d['g1']?></font></td>
-                <td><font color="#fff">X</font></td>
-                <td><font color="#fff"><?=$d['g2']?></font></td>
-                <td><font color="#fff"><?=$d['time2']?></font></td>
-
-            </tr>
-        </tbody>
-        <?php 
-        $posicao++;
-        } ?>
-    </table>
+    <strong>
+    <?=$d['time1']?>
+    <?=$d['g1']?>
+    X
+    <?=$d['g2']?>
+    <?=$d['time2']?>
+    <br>
+<div align="right">
+     <?=$d['estadio']?>
+     &nbsp&nbsp&nbsp&nbsp&nbsp
+</div>
+</font></center></strong></h4></td></tr>
+</table>
+    </div>
+<br>
+                                          
+                <?php } ?>
         </div>
     </div>
 

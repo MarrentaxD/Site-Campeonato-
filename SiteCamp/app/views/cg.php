@@ -54,15 +54,12 @@
 
                 <div align="center">
     <table border="1" width="70%" bgcolor="#000000">
-    <tr><td bgcolor="#33B86"><h4><strong><center><font face="Garamond" color="#fff">"Vamos começar a dar vida ao torneio! Com base nos seus times, o<br>
-    nosso sistema fez uma tabela de jogos pronta, e sua função será<br>
-    colocar os resultados de cada partida.</font></center></strong></h4></td></tr>
+    <tr><td bgcolor="#33B86"><h4><strong><center><font face="Garamond" color="#fff">Agora vamos inserir os gols de cada time,<br>
+    O gols Time 1  é o que foi colocado na esquerda<br>
+     O gols Time 2  é o que foi colocado na direita.</font></center></strong></h4></td></tr>
     </table>
     </div>
 <br>
-
-            <center><h2><font face="Verdana">Insira os Jogos</font></h2></center>
-
                 <div align="center">
                 <form method="post" action="/salvarg">
 

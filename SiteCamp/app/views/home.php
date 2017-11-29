@@ -20,21 +20,28 @@ and open the template in the editor.
     
     <div class="uk-container">
     <body bgcolor="#33B86">
+    
+    <div align="right">
+        <a href="tabela"><button type="submit" class="uk-button"><strong>Tabela</strong></button></a>
+    </div>
     <center><img src="public/imagens/Oficial.png" width="250" height="250"/></center>
+
     
+    <br>
+   
     
-    <br><br>
+    <br>
 
     <center><h1><font face="Helvetica">Emira Championship</font></h1></center>
-    <br><br>
+    <br>
 
     <div align="center">
     <table border="1" width="50%" bgcolor="#000000">
-    <tr><td bgcolor="#33B86"><h4><strong><center><font face="Garamond" color="#fff">"Este site é perfeito para você gerenciar seu<br>
+    <tr><td bgcolor="#33B86"><h4><strong><center><font face="Garamond" color="#fff">Este site é perfeito para você gerenciar seu<br>
     campeonato de futebol do seu jeito. Crie o seu agora mesmo.<br>
 
     Não se preocupe, vamos te guiar até a
-    <br>conclusão do campeonato."</font></center></strong></h4></td></tr>
+    <br>conclusão do campeonato.</font></center></strong></h4></td></tr>
     </table>
     </div>
 

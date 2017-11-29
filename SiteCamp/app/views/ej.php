@@ -1,11 +1,8 @@
 <?php
 
     foreach ($dados as $d) {
-
-        
+    
     }
-
-
 ?>
 
 <!DOCTYPE html>
@@ -59,7 +56,7 @@
 
                 <div align="center">
     <table border="1" width="70%" bgcolor="#000000">
-    <tr><td bgcolor="#33B86"><h4><strong><center><font face="Garamond" color="#fff">"Selecione os jogos que irão acontecer,<br>
+    <tr><td bgcolor="#33B86"><h4><strong><center><font face="Garamond" color="#fff">Selecione os jogos que irão acontecer,<br>
     logo após insira o saldo de gols de cada time.<br>
     O numero na tabela corresponde ao numero dos jogos! </font></center></strong></h4></td></tr>
     </table>

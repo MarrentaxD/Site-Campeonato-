@@ -47,11 +47,11 @@
 
                 <div align="center">
     <table border="1" width="50%" bgcolor="#000000">
-    <tr><td bgcolor="#33B86"><h4><strong><center><font face="Garamond" color="#fff">"Agora, insira o nome e o patrocinador do time, um<br>
+    <tr><td bgcolor="#33B86"><h4><strong><center><font face="Garamond" color="#fff">Agora, insira o nome e o patrocinador do time, um<br>
     de cada vez, e clique em <"GUARDAR">.<br>
 
     Quando estiver tudo pronto, clique em
-    <br><"FINALIZAR">."</font></center></strong></h4></td></tr>
+    <br><"FINALIZAR">.</font></center></strong></h4></td></tr>
     </table>
     </div>
 <br><br>

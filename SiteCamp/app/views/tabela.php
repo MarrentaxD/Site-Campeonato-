@@ -53,12 +53,12 @@
 
                 <div align="center">
     <table border="1" width="70%" bgcolor="#000000">
-    <tr><td bgcolor="#33B86"><h4><strong><center><font face="Garamond" color="#fff">"Pronto, agora seu campeonato está concluído!<br>
+    <tr><td bgcolor="#33B86"><h4><strong><center><font face="Garamond" color="#fff">Pronto, agora seu campeonato está concluído!<br>
     Você pode ver as opções do seu time ao clicar no<br>
     nome dele na tabela abaixo.</font></center></strong></h4></td></tr>
     </table>
     </div>
-<br><br><br><br>
+<br><br>
 
                 <div align="center">
 
@@ -85,6 +85,6 @@
     </table>
         </div>
     </div>
-
+    
 </body>
 </html>

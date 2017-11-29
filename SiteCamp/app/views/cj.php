@@ -59,7 +59,7 @@
 
                 <div align="center">
     <table border="1" width="70%" bgcolor="#000000">
-    <tr><td bgcolor="#33B86"><h4><strong><center><font face="Garamond" color="#fff">"Vamos começar a dar vida ao torneio! Com base nos seus times, o<br>
+    <tr><td bgcolor="#33B86"><h4><strong><center><font face="Garamond" color="#fff">Vamos começar a dar vida ao torneio! Com base nos seus times, o<br>
     nosso sistema fez uma tabela de jogos pronta, e sua função será<br>
     colocar os resultados de cada partida.</font></center></strong></h4></td></tr>
     </table>
