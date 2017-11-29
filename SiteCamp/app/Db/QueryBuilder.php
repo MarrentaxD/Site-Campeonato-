@@ -144,11 +144,15 @@ group by tabela.times_id order by gols desc";
     public function selectinner2($id)
 {
 
-  $sql = "SELECT * FROM jogos as j
-inner join times
-on j.time1 = times.id
-inner join times as t
-on j.time2 = t.id
+  $sql = "SELECT distinct(j.estadio), j.data, t1.nome as time1, t2.nome as time2, ta1.gols as g1, ta2.gols as g2 FROM jogos as j
+inner join times as t1
+on j.time1 = t1.id
+inner join times as t2
+on j.time2 = t2.id
+inner join tabela as ta1
+on t1.id = ta1.times_id
+inner join tabela as ta2
+on t2.id = ta2.times_id
 where j.time1 = :id or j.time2 = :id"; 
   $s = $this->pdo->prepare($sql);
 

@@ -124,11 +124,19 @@ class TesteController
 
     public function consultar()
     {
+        //buscando o id do time consultado
         $id = $_GET['id'];
+
+        //criando conexão com o banco
          $q = new QueryBuilder();
+
+         //selecionando dados
          $dados = $q->selectinner2($id);
-         print_r($dados);
-         die();
+
+        
+
+         //devolvendo a pagina 
+         require './app/views/consultar.php';
 
         
 
