@@ -17,13 +17,19 @@ and open the template in the editor.
         <script src="js/uikit-icons.min.js"></script>
 
     </head>
+    <style>
+            .uk-container {
+	        width:900px;
+	        background-color:white;
+	        margin:-5px auto 0px auto;
+	        box-shadow:0px 0px 20px black;
+	        padding:20px 10px 200px 10px;
+        }
+        </style>
     
     <div class="uk-container">
     <body bgcolor="#33B86">
     
-    <div align="right">
-        <a href="tabela"><button type="submit" class="uk-button"><strong>Tabela</strong></button></a>
-    </div>
     <center><img src="public/imagens/Oficial.png" width="250" height="250"/></center>
 
     
@@ -49,7 +55,8 @@ and open the template in the editor.
    <div align="center">
     <center><a href="cadastro"><img src="public/imagens/logo.png" width="100" height="100"/></a></center>
     <br>
-        <a href="cadastro"><button type="submit" class="uk-button"><strong>Criar um Torneio</strong></button></a>
+        <a href="cadastro"><button type="submit" class="uk-button"><strong>Criar um Torneio</strong></button></a>&nbsp&nbsp&nbsp
+        <a href="tabela"><button type="submit" class="uk-button"><strong>Vizualizar Tabela</strong></button></a>
     </div>
     <br>
     </div>
